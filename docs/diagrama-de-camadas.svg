@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660">
+<rect width="980" height="660" fill="#ffffff"/>
+<text x="40" y="28" font-size="16" font-weight="700" font-family="Helvetica,Arial,sans-serif">Arquitetura em Camadas &#8211; Sistema de Faculdade</text>
+<rect x="410" y="50" width="160" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="490.0" y="69.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Main</text>
+<text x="490.0" y="85.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">ponto de entrada</text>
+<rect x="410" y="134" width="160" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="490.0" y="153.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Menu</text>
+<text x="490.0" y="169.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">do/while</text>
+<line x1="490" y1="94" x2="490" y2="125" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="490,134 484,125 496,125" fill="#1a1a1a"/>
+<line x1="490" y1="178" x2="490" y2="198" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="200" y1="198" x2="820" y2="198" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="60" y="218" width="280" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="200.0" y="243.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">SubmenuAluno</text>
+<line x1="200" y1="198" x2="200" y2="209" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="200,218 194,209 206,209" fill="#1a1a1a"/>
+<rect x="370" y="218" width="280" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="510.0" y="243.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">SubmenuDisciplina</text>
+<line x1="510" y1="198" x2="510" y2="209" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="510,218 504,209 516,209" fill="#1a1a1a"/>
+<rect x="680" y="218" width="280" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="820.0" y="243.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">SubmenuCurso</text>
+<line x1="820" y1="198" x2="820" y2="209" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="820,218 814,209 826,209" fill="#1a1a1a"/>
+<rect x="60" y="300" width="280" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="200.0" y="319.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">AlunoController</text>
+<text x="200.0" y="335.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">regra de negocio</text>
+<line x1="200" y1="258" x2="200" y2="291" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="200,300 194,291 206,291" fill="#1a1a1a"/>
+<rect x="370" y="300" width="280" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="510.0" y="319.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">DisciplinaController</text>
+<text x="510.0" y="335.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">regra de negocio</text>
+<line x1="510" y1="258" x2="510" y2="291" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="510,300 504,291 516,291" fill="#1a1a1a"/>
+<rect x="680" y="300" width="280" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="820.0" y="319.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">CursoController</text>
+<text x="820.0" y="335.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">regra de negocio</text>
+<line x1="820" y1="258" x2="820" y2="291" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="820,300 814,291 826,291" fill="#1a1a1a"/>
+<rect x="60" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="125.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">AlunoView</text>
+<rect x="210" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="275.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">AlunoDAO</text>
+<line x1="125" y1="344" x2="125" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="125,392 119,383 131,383" fill="#1a1a1a"/>
+<line x1="275" y1="344" x2="275" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="275,392 269,383 281,383" fill="#1a1a1a"/>
+<rect x="370" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="435.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">DisciplinaView</text>
+<rect x="520" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="585.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">DisciplinaDAO</text>
+<line x1="435" y1="344" x2="435" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="435,392 429,383 441,383" fill="#1a1a1a"/>
+<line x1="585" y1="344" x2="585" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="585,392 579,383 591,383" fill="#1a1a1a"/>
+<rect x="680" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="745.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">CursoView</text>
+<rect x="830" y="392" width="130" height="40" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="895.0" y="417.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">CursoDAO</text>
+<line x1="745" y1="344" x2="745" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="745,392 739,383 751,383" fill="#1a1a1a"/>
+<line x1="895" y1="344" x2="895" y2="383" stroke="#1a1a1a" stroke-width="1.5"/><polygon points="895,392 889,383 901,383" fill="#1a1a1a"/>
+<line x1="125" y1="432" x2="125" y2="456" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="435" y1="432" x2="435" y2="456" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="745" y1="432" x2="745" y2="456" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="125" y1="456" x2="745" y2="456" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="200" y1="456" x2="200" y2="511" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/><polygon points="200,520 194,511 206,511" fill="#1a1a1a"/>
+<line x1="275" y1="432" x2="275" y2="478" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="585" y1="432" x2="585" y2="478" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="895" y1="432" x2="895" y2="478" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="275" y1="478" x2="895" y2="478" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="725" y1="478" x2="725" y2="511" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4,3"/><polygon points="725,520 719,511 731,511" fill="#1a1a1a"/>
+<rect x="60" y="520" width="280" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="200.0" y="539.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">Teclado</text>
+<text x="200.0" y="555.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">um unico Scanner</text>
+<rect x="530" y="520" width="390" height="44" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="725.0" y="539.0" font-size="14" font-weight="700" text-anchor="middle" font-family="Helvetica,Arial,sans-serif">DatabaseConnection</text>
+<text x="725.0" y="555.0" font-size="11.5" fill="#555" text-anchor="middle" font-family="Menlo,monospace">Singleton  |  MySQL</text>
+<text x="40" y="606" font-size="11.5" fill="#444" font-family="Helvetica,Arial,sans-serif">Regra: o Submenu so encaminha  |  o Controller decide  |  a View fala com o usuario  |  o DAO fala com o banco.</text>
+<text x="40" y="628" font-size="11.5" fill="#444" font-family="Helvetica,Arial,sans-serif">Nenhum Controller tem System.out.println. Nenhuma classe fora de dao/ importa java.sql.</text>
+</svg>
