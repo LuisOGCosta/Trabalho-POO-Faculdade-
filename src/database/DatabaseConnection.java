@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-// PADRAO SINGLETON: uma unica conexao para todo o sistema (abrir conexao e caro).
 public class DatabaseConnection {
 
     private static Connection connection = null;

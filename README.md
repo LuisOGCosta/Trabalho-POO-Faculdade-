@@ -69,20 +69,6 @@ src/
 
 ---
 
-## Documentação
-
-A pasta [`docs/`](docs/) tem tudo, em Markdown e em Word (`docs/word/`):
-
-| Documento | Conteúdo |
-|---|---|
-| [Diagrama de classes](docs/diagrama-de-classes.md) | Atividade 1 — diagrama de classes e de camadas |
-| [Guia de defesa oral](docs/guia-de-defesa-oral.md) | Perguntas prováveis com resposta e o arquivo/linha que prova |
-| [Roteiro de apresentação](docs/roteiro-de-apresentacao.md) | Setup e sequência da demonstração |
-| [Banco de dados](docs/banco-de-dados.md) | Como o banco foi montado e como reproduzir |
-| [schema.sql](docs/schema.sql) | Estrutura do banco |
-
----
-
 ## Modelo de dados
 
 ```
