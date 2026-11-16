@@ -30,3 +30,6 @@ bin/
 ### Projeto ###
 # Arquivo de sessao do IntelliJ: muda a cada abertura e e especifico de cada maquina
 .idea/workspace.xml
+
+# Pasta de ferramenta externa, recriada automaticamente
+.serena/
