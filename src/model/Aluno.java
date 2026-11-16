@@ -1,27 +1,23 @@
 package model;
 
-// HERANCA: Aluno E UMA Pessoa -> herda nome e idade.
-public class Aluno extends Pessoa {
+public class Aluno {
 
+    // ENCAPSULAMENTO: atributos private, acessados so por getters/setters.
     private int matricula;
+    private String nome;
+    private int idade;
 
     // COMPOSICAO: Aluno TEM UM Curso (o objeto inteiro, nao so o codigo).
     private Curso curso;
 
     public Aluno() {
-        super();
     }
 
     public Aluno(int matricula, String nome, int idade, Curso curso) {
-        super(nome, idade);
         this.matricula = matricula;
+        this.nome = nome;
+        this.idade = idade;
         this.curso = curso;
-    }
-
-    // POLIMORFISMO: implementacao obrigatoria do metodo abstrato de Pessoa.
-    @Override
-    public String getIdentificacao() {
-        return "Matricula: " + matricula;
     }
 
     public int getMatricula() {
@@ -30,6 +26,22 @@ public class Aluno extends Pessoa {
 
     public void setMatricula(int matricula) {
         this.matricula = matricula;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 
     public Curso getCurso() {
@@ -42,6 +54,6 @@ public class Aluno extends Pessoa {
 
     @Override
     public String toString() {
-        return getIdentificacao() + " | " + getNome() + " | " + getIdade() + " anos";
+        return "Matricula: " + matricula + " | " + nome + " | " + idade + " anos";
     }
 }

@@ -42,7 +42,7 @@ src/
 ├── Main.java                     cria as tabelas e chama o Menu
 ├── Menu.java                     menu principal
 ├── SubmenuAluno/Disciplina/Curso.java
-├── model/        Pessoa (abstrata), Aluno, Curso, Disciplina
+├── model/        Aluno, Curso, Disciplina
 ├── view/         AlunoView, CursoView, DisciplinaView, Teclado
 ├── controller/   AlunoController, CursoController, DisciplinaController
 ├── dao/          AlunoDAO, CursoDAO, DisciplinaDAO
@@ -58,9 +58,7 @@ src/
 
 | Conceito | Onde |
 |---|---|
-| Herança | `Aluno extends Pessoa` |
-| Classe e método abstratos | `model/Pessoa.java` |
-| Polimorfismo | `getIdentificacao()` e `toString()` sobrescritos |
+| Polimorfismo | `toString()` sobrescrito nos models |
 | Encapsulamento | atributos `private` + getters/setters |
 | Composição | `Aluno` tem um `Curso`; `Curso` tem `List<Disciplina>` |
 | Padrão MVC | pacotes `model`, `view`, `controller` |
