@@ -2,8 +2,6 @@ package view;
 
 import java.util.Scanner;
 
-// Centraliza a leitura do teclado (DRY): UM UNICO Scanner para todo o sistema
-// e so nextLine(), para o nome do aluno poder ter espaco.
 public class Teclado {
 
     private static final Scanner scan = new Scanner(System.in);

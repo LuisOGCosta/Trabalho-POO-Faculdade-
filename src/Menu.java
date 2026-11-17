@@ -5,7 +5,6 @@ public class Menu {
     public static void Show() {
         int opcao;
 
-        // do/while: o menu se repete e o programa SO encerra na opcao 4 (SAIR).
         do {
             System.out.println();
             System.out.println("=======================");

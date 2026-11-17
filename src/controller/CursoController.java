@@ -38,7 +38,6 @@ public class CursoController {
                 DisciplinaView.Message("ERRO: ja existe uma disciplina com o codigo "
                         + disciplina.getCodigo() + "! Informe outro codigo.");
             }
-            // REGRA: enquanto nao houver nenhuma disciplina, repete sem perguntar.
         } while (cadastradas == 0 || DisciplinaView.PerguntarOutra());
 
         CursoView.Message("Curso finalizado com " + cadastradas + " disciplina(s).");
